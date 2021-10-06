@@ -42,7 +42,7 @@ body {
     columns: 1;
     flex-wrap: wrap;
     overflow: hidden;
-    background-color:rgba(96, 96, 96, 1);
+    background-color: rgba(96, 96, 96, 1);
 }
 
 .content-image-wrapper {
