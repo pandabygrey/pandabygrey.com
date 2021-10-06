@@ -111,19 +111,16 @@ body {
 /* ============================== */
 @media only screen and (max-width: 610px) {
     .content-sns-wrapper {
-        bottom: 5%;
+        bottom: 0%;
         flex-direction: column;
     }
 }
-/* @media only screen and (max-height: 770px) {
+@media only screen and (max-height: 770px) {
     .content-sns-wrapper {
-        bottom: 7%;
+        bottom: 0%;
         flex-direction: column;
     }
-    .sns-link-instagram, .sns-link-facebook {
-        margin: 12px;
-    }
-} */
+}
 /* @media only screen and (max-height: 720px) {
     .content-sns-wrapper {
         bottom: 5.5%;
