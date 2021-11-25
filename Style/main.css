@@ -171,7 +171,7 @@ footer {
     height: 20px;
     background-image: url(../Images/PandabyGrey-logotype.png);
     background-size: auto 14px;
-    background-position: center left;
+    background-position: center right;
     background-repeat: no-repeat;
     /* border: 1px solid gold; */
 }
@@ -188,7 +188,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     /* column-gap: 15px; */
     border: 1px solid magenta;
