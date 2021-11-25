@@ -974,10 +974,10 @@ section {
     .artworks-content-description-title {
         padding: 20px 0 30px;
     }
-    .artworks-content-image-wrapper {
+    /* .artworks-content-image-wrapper {
         position: relative;
         max-width: var(--max-width);
-        /* aspect-ratio: 1024 / 683; */
+        aspect-ratio: 1024 / 683;
         max-height: calc(var(--max-width) / aspect-ratio);
         width: 100%;
         height: calc((100vw - 244px) / aspect-ratio);
@@ -988,7 +988,6 @@ section {
         align-items: center;
         overflow-x: scroll;
         overflow-y: hidden;
-        /* -webkit-overflow-scrolling: touch; */
         border-radius: 10px;
     }
     .artworks-content-image {
@@ -1000,7 +999,7 @@ section {
         background-repeat: no-repeat;
         scroll-snap-align: center;
         scroll-snap-stop: always;
-    }
+    } */
     
     /* ------------------------------ */
     /* Order                          */
