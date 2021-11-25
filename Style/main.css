@@ -868,6 +868,9 @@ section {
         padding: 0 20px;
         width: calc(100% - 40px);
     }
+    .ft-information-pandabygrey, .ft-information-sns {
+        flex: 1;
+    }
 
     /* ------------------------------ */
     /* Landing                        */
