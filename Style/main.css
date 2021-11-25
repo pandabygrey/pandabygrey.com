@@ -981,6 +981,7 @@ section {
         padding-bottom: 0px;
     }
     .order-content-scroll {
+        overflow: visible;
         row-gap: 20px;
     }
     .order-content-option {
