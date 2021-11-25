@@ -168,7 +168,7 @@ footer {
     width: 200px;
 }
 .ft-information-pandabygrey-image {
-    height: 20px;
+    height: 14px;
     background-image: url(../Images/PandabyGrey-logotype.png);
     background-size: auto 14px;
     background-position: center left;
@@ -176,7 +176,7 @@ footer {
     /* border: 1px solid gold; */
 }
 .ft-information-copyright-image {
-    height: 20px;
+    height: 12px;
     background-image: url(../Images/Copyright-white.png);
     background-size: auto 12px;
     background-position: center center;
