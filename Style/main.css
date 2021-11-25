@@ -165,14 +165,13 @@ footer {
 /*     border: 1px solid blue; */
 }
 .ft-information-pandabygrey {
-    order: 2;
     width: 200px;
 }
 .ft-information-pandabygrey-image {
     height: 20px;
     background-image: url(../Images/PandabyGrey-logotype.png);
     background-size: auto 14px;
-    background-position: center left;
+    background-position: center flex-start;
     background-repeat: no-repeat;
     /* border: 1px solid gold; */
 }
