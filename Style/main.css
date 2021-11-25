@@ -781,9 +781,9 @@ section {
     .head-globalnav {
         width: calc(100% - 144px);
     }
-    .ft-container {
+/*     .ft-container {
         width: calc(100% - 144px);
-    }
+    } */
     .order-content-period-copy-2 {
         font-size: 20px;
     }
