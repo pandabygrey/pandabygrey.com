@@ -38,7 +38,6 @@ body {
     --hd-ft-padding: 70px 0 30px;
     --container-padding: 30px 50px;
     --max-width: 980px;
-    --ar: 1.499267935578331;
     --m-color: rgb(240, 146, 82);
     --q-color: rgb(247, 148, 158);
     --c-color: rgb(83, 211, 198);
@@ -486,6 +485,8 @@ section {
 }
 .artworks-content-scroll {
     overflow: auto;
+    position: relative;
+    width: 100%;
 }
 .artworks-content-description-text {
     padding: 30px 20px 0;
@@ -502,11 +503,12 @@ section {
 }
 .artworks-content-image-wrapper {
     position: relative;
+    padding-bottom: calc(100% * 683 / 1024);
     max-width: var(--max-width);
-    /* aspect-ratio: 1024 / 683; */
-    max-height: calc(var(--max-width) / var(--ar));
+    /* aspect-ratio: 1024 / 683;
+    max-height: calc(var(--max-width) / aspect-ratio);
     width: 100%;
-    height: calc((100vw - 244px) / var(--ar));
+    height: calc((100vw - 244px) / aspect-ratio); */
     display: flex;
     background-color: white;
     flex-direction: row;
@@ -524,7 +526,12 @@ section {
 .artworks-content-image-wrapper { -ms-overflow-style: none; scrollbar-width: none; }
 .artworks-content-image-wrapper::-webkit-scrollbar { display: none; }
 .artworks-content-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* position: relative; */
     min-width: 100%;
     min-height: 100%;
     background-size: contain;
@@ -974,7 +981,7 @@ section {
     .artworks-content-description-title {
         padding: 20px 0 30px;
     }
-    /* .artworks-content-image-wrapper {
+    .artworks-content-image-wrapper {
         position: relative;
         max-width: var(--max-width);
         aspect-ratio: 1024 / 683;
@@ -988,6 +995,7 @@ section {
         align-items: center;
         overflow-x: scroll;
         overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
         border-radius: 10px;
     }
     .artworks-content-image {
@@ -999,7 +1007,7 @@ section {
         background-repeat: no-repeat;
         scroll-snap-align: center;
         scroll-snap-stop: always;
-    } */
+    }
     
     /* ------------------------------ */
     /* Order                          */
