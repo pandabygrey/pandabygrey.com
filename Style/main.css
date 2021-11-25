@@ -817,9 +817,9 @@ section {
     }
 }
 
-/* @media only screen and (max-width: 599px) {
+@media only screen and (max-width: 599px) {
     .ft-information-copyright { display: none; }
-} */
+}
 
 @media only screen and (max-width: 729px) {
     /* ------------------------------ */
