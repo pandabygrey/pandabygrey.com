@@ -162,7 +162,7 @@ footer {
     padding: 0 10px;
     width: 100%;
     color: white;
-/*     border: 1px solid blue; */
+    /* border: 1px solid blue; */
 }
 .ft-information-pandabygrey {
     width: 200px;
@@ -191,7 +191,7 @@ footer {
     justify-content: flex-end;
     align-items: center;
     /* column-gap: 15px; */
-/*     border: 1px solid magenta; */
+    /* border: 1px solid magenta; */
 }
 .ft-information-sns-link {
     width: 20px;
@@ -199,7 +199,7 @@ footer {
     background-size: auto 20px;
     background-position: center right;
     background-repeat: no-repeat;
-/*     border: 1px solid magenta; */
+    /* border: 1px solid magenta; */
 }
 .ft-information-sns-link-facebook {
     padding-left: 15px;
@@ -433,6 +433,8 @@ section {
     font-size: 16px;
     font-weight: 400;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
+
     /* border: 1px solid magenta; */
 }
 .overview-content-description-text > p {
@@ -485,6 +487,8 @@ section {
 }
 .artworks-content-scroll {
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
+
 }
 .artworks-content-description-text {
     padding: 30px 20px 0;
@@ -513,9 +517,9 @@ section {
     align-items: center;
     overflow-x: scroll;
     overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
     scroll-snap-type: x proximity;
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
     overscroll-behavior-x: contain;
     border-radius: 10px;
     /* border: 1px solid blue; */
@@ -653,6 +657,7 @@ section {
 }
 .order-content-scroll {
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -985,6 +990,7 @@ section {
         align-items: center;
         overflow-x: scroll;
         overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
         border-radius: 10px;
     }
     .artworks-content-image {
@@ -1054,3 +1060,5 @@ section {
         padding: 20px;
     }
 }
+
+
