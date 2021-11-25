@@ -658,10 +658,10 @@ section {
 .order-content-scroll {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: left;
+    align-items: left; */
     /* row-gap: 40px; */
     /* border: 1px solid green; */
 }
@@ -671,10 +671,12 @@ section {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+    align-items: flex-start;
     /* column-gap: 15px; */
     /* border: 1px solid green; */
 }
 .order-content-option-1, .order-content-option-2, .order-content-option-3 {
+    width: 100%;
     padding: 15px;
     flex: calc(100% / 3);
     border-radius: 10px;
