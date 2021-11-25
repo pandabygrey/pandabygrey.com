@@ -504,7 +504,7 @@ section {
 .artworks-content-image-wrapper {
     position: relative;
     padding-bottom: calc(100% * 683 / 1024);
-    width: 100vw;
+    width: 100%;
     max-width: var(--max-width);
     /* aspect-ratio: 1024 / 683;
     max-height: calc(var(--max-width) / aspect-ratio);
