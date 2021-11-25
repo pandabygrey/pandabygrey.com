@@ -38,7 +38,7 @@ body {
     --hd-ft-padding: 70px 0 30px;
     --container-padding: 30px 50px;
     --max-width: 980px;
-    --ar: calc(1024px / 768px);
+    --ar: 1.499267935578331;
     --m-color: rgb(240, 146, 82);
     --q-color: rgb(247, 148, 158);
     --c-color: rgb(83, 211, 198);
