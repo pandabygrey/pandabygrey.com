@@ -880,6 +880,9 @@ section {
         max-height: 100%;
         height: 100%;
     }
+    .landing-content-title {
+        padding-top: 0;
+    }
     .landing-content-title > p {
         display: block;
         font-size: 36px;
@@ -915,9 +918,7 @@ section {
         background-size: auto 15px;
     }
     .landing-content-sns {
-        margin-top: 5px;
-        padding-bottom: 10px;
-        /* column-gap: 20px; */
+        padding: 10px 0;
     }
     .landing-content-sns-link {
         width: 25px;
