@@ -1028,6 +1028,7 @@ section {
     }
     .order-content-option-1, .order-content-option-2, .order-content-option-3 {
         padding: 7px 10px;
+        width: calc(100% - 40px);
     }
     .order-content-option-2 {
         margin: 10px 0;
