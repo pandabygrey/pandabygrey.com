@@ -1,1 +1,1 @@
-# Panda by Grey
+# Panda Friends - Art Collection 2021
