@@ -188,7 +188,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: spacebetween;
     align-items: center;
     /* column-gap: 15px; */
     border: 1px solid magenta;
