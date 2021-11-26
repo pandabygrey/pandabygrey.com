@@ -461,7 +461,7 @@ section {
 .artworks-content-scroll, .order-content-scroll {
     position: relative;
     width: 100%;
-    overflow: auto;
+/*     overflow: auto; */
     scroll-behavior: smooth;
     overscroll-behavior: contain;
 }
