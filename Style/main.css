@@ -461,7 +461,8 @@ section {
 .artworks-content-scroll, .order-content-scroll {
     position: relative;
     width: 100%;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     overscroll-behavior: contain;
 }
@@ -1093,6 +1094,30 @@ section {
         height: 20px;
         background-size: 20px auto;
         background-position: center right;
+    }
+    .overview-content-description-text > p {
+        padding-bottom: 10px;
+    }
+    .overview-content-description-title, .artworks-content-description-title {
+        padding: 15px 0 20px;
+        font-size: 20px;
+    }
+    .artworks-content-description-text {
+        padding: 20px 10px 0;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .artworks-content-description-text > p {
+        padding-bottom: 10px;
+    }
+    .order-content-period-title, .order-content-period-copy {
+        padding: 15px 0 0;
+        font-size: 20px;
+    }
+    .order-content-period-copy {
+        margin-top: -10px;
+        padding-bottom: 20px;
+        font-size: 16px;
     }
 }
 
