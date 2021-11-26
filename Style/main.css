@@ -479,7 +479,7 @@ section {
 }
 .artworks-content-image-wrapper {
     position: relative;
-    padding-top: calc(100% * 683 / 1024);
+    padding-bottom: calc(100% * 683 / 1024);
     max-width: var(--max-width);
     display: flex;
     background-color: white;
