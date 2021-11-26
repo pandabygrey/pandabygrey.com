@@ -1095,5 +1095,14 @@ section {
         height: 20px;
         background-size: 20px auto;
         background-position: center right;
-    }    
+    }
+    .overview-content-description, .artworks-content-background, .order-content-description {
+        overflow: auto;
+    }
+    .overview-content-description-text {
+        overflow: visible;
+    }
+    .artworks-content-scroll, .order-content-scroll {
+        overflow: visible;
+    }
 }
