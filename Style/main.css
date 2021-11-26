@@ -465,7 +465,8 @@ section {
 .artworks-content-scroll, .order-content-scroll {
     position: relative;
     width: 100%;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     overscroll-behavior: contain;
 }
 .artworks-content-description-text {
